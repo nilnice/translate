@@ -1,0 +1,29 @@
+{
+  "name": "nilnice/translate",
+  "description": "This is a translate service",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Nilnice",
+      "email": "nilnice@163.com"
+    }
+  ],
+  "require": {
+    "ext-json": "*",
+    "guzzlehttp/guzzle": "^6.3",
+    "phpunit/phpunit": "^7.3",
+    "mockery/mockery": "^1.1",
+    "illuminate/config": "^5.7"
+  },
+  "autoload": {
+    "psr-4": {
+      "Nilnice\\Translate\\": "./src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Nilnice\\Translate\\Tests\\": "./tests/"
+    }
+  }
+}
